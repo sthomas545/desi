@@ -29,7 +29,7 @@ namespace DigitalRuby.PyroParticles
 
         private void UpdateUI()
         {
-            Sun.transform.rotation = Quaternion.Euler(TimeOfDaySlider.value, 60.0f, 0.0f);
+    //        Sun.transform.rotation = Quaternion.Euler(TimeOfDaySlider.value, 60.0f, 0.0f);
             CurrentItemText.text = Prefabs[currentPrefabIndex].name;
         }
 

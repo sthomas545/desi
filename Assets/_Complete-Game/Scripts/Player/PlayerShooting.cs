@@ -40,10 +40,11 @@ namespace CompleteProject
         {
             // Add the time since Update was last called to the timer.
             timer += Time.deltaTime;
-
+            // Input.GetKeyDown(KeyCode.Space))(Input.GetButton ("Fire1")
 #if !MOBILE_INPUT
-            // If the Fire1 button is being press and it's time to fire...
-			if(Input.GetButton ("Fire1") && timer >= timeBetweenBullets && Time.timeScale != 0)
+                // If the
+                //Fire1 button is being press and it's time to fire...
+                if (Input.GetKeyDown(KeyCode.Space) && timer >= timeBetweenBullets && Time.timeScale != 0)
             {
                 // ... shoot the gun.
                 Shoot ();

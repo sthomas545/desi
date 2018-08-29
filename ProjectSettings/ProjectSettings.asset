@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: a56148e0b09014a459f487c24ceddbbb
+  productGUID: 00000000000000000000000000000000
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -726,12 +726,12 @@ PlayerSettings:
     Game_Performance: 0
     Hub: 0
     Purchasing: 0
-    UNet: 1
+    UNet: 0
     Unity_Ads: 0
   facebookSdkVersion: 7.9.1
   apiCompatibilityLevel: 2
   cloudProjectId: 5d8d49d8-6ba1-4e7b-bb8d-ddcc9cc8fb21
-  projectName: New Unity Project (3)
+  projectName: Space Shooter
   organizationId: saju2
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
